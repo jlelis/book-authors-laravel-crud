@@ -30,7 +30,8 @@ class BookController extends Controller
         //dd($this->objUser->find(1)->relBooks);
         //return view('teste');
         // $book = $this->objBook->all();
-        $book = $this->objBook->all()->sortBy('title');
+        // $book = $this->objBook->all()->sortBy('title');
+        $book = $this->objBook->paginate(5);
         return view('books', compact('book'));
     }
 
@@ -75,7 +76,7 @@ class BookController extends Controller
      */
     public function show($id)
     {
-        echo $id;
+        // echo $id;
         $book = $this->objBook->find($id);
         return view('show', compact('book'));
     }
@@ -119,8 +120,10 @@ class BookController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+
     public function destroy($id)
     {
-        //
+        $del = $this->objBook->destroy($id);
+        return ($del) ? "sim" : "não";
     }
 }
