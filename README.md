@@ -1,7 +1,7 @@
 # CRUD - Laravel
 
 ##   Biblioteca Home!
-![80%](https://progress-bar.dev/80?title=completed)
+![90%](https://progress-bar.dev/90?title=completed)
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
@@ -39,11 +39,7 @@ lembre-se de configurar o arquivo `.env` para realizar acesso ao banco.
 
 ![image](https://raw.githubusercontent.com/jlelis/book-authors-laravel-crud/master/img/create.png)
 
-
 ![image](https://raw.githubusercontent.com/jlelis/book-authors-laravel-crud/master/img/read.png)
-
-
-
 
 ![image](https://raw.githubusercontent.com/jlelis/book-authors-laravel-crud/master/img/delete.png)
 
