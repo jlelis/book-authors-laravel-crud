@@ -1,11 +1,14 @@
 @extends('templates.template')
 
 @section('content')
-<h1 class="text-center">Crud</h1>
+<h1 class="text-center">Biblioteca Home!</h1>
 <div class="text-center mt-3 mb-4">
+
+
     <a href="{{ url('books/create') }}">
-        <button type="button" class="btn btn-success">Cadastrar</button>
+        <button type="button" class="btn btn-success">+Livro</button>
     </a>
+
 </div>
 
 <div class="col-8 m-auto">

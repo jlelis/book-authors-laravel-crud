@@ -10,10 +10,20 @@
 </head>
 
 <body>
-    @yield('content')
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            </div>
+        </nav>
+        @yield('content')
 
+
+        <footer class="footer text-center">
+            <p>©Cadastros - autor de livros.</p>
+        </footer>
+
+    </div>
     <script src="{{asset('js/custom.js')}}"></script>
-
 </body>
 
 </html>

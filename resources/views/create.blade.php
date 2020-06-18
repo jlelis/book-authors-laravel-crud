@@ -35,7 +35,7 @@
                 value="{{$book->price ?? ''}}" required><br>
             <input class="btn btn-primary" type="submit" value="@if(isset($book))Editar @else Cadastrar @endif">
             <a href="{{ url("books") }}">
-                <button type="button" class="btn btn-warning">Voltar</button>
+                <button type="button" class="btn btn-warning">Voltar</button></a>
         </form>
 </div>
 @endsection
